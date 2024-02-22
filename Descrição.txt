@@ -1,0 +1,63 @@
+
+XAMPP
+
+"EDITOR DE TEXTO" NOTEPAD++ OU SUBLIME TEXT 3 / ETC.
+
+"Sistema de Banco de Sangue"
+
+Baixe o arquivo zip / baixe o WinRAR
+
+Extraia o arquivo e copie a pasta "Doar_sangue"
+
+Cole dentro do diretório raiz / onde você instalou o XAMPP: disco local C: drive D: drive E: cole: (para xampp/htdocs,
+
+Abra o PHPMyAdmin (http://localhost/phpmyadmin)
+
+Crie um banco de dados com o nome blood_doar_db
+
+Importe o arquivo blood_doar_db.sql (fornecido dentro do pacote zip na pasta de arquivos SQL)
+
+Execute o script http:/localhost/Doar_sangue/index.php
+
+**DETALHES DE LOGIN ** 
+
+Admin
+usuário: admin
+Senha: admin123
+
+
+Caracteristicas do site
+
+Página de Login
+A página onde os usuários do sistema fornecerão suas credenciais do sistema para acessar os dados do sistema.
+
+Página Inicial
+A página para onde os usuários do sistema serão redirecionados após fazer login no sistema de gerenciamento do banco de sangue. Esta página exibe o volume disponível de cada grupo sanguíneo e também mostra um resumo dos dados do sistema.
+
+Página de Doadores
+A página onde todos os doadores são listados e gerenciados.
+
+Página de Doações de Sangue
+A página onde o sangue doado é listado e gerenciado. A funcionalidade do sistema que atualiza o volume disponível nos estoques de sangue.
+
+Página de Solicitações
+A página onde todas as solicitações de sangue são listadas e gerenciadas.
+Página de Entregas
+
+A página onde todas as solicitações de doação ou entrega de sangue são listadas e gerenciadas.
+Página de Usuários
+
+A página onde o usuário administrador do sistema pode gerenciar a lista de usuários do sistema.
+
+
+O Sistema de Gerenciamento de Doação de Sangue é um projeto em PHP/MySQL que gerencia o inventário de sangue em um banco de sangue específico.
+O sistema permite apenas que a administração do banco de sangue acesse os dados, pois o foco do sistema está exclusivamente na gestão de dados ou no inventário da disponibilidade de sangue em um banco de sangue específico.
+Este sistema armazena a lista de doadores, doações de sangue, solicitações e entrega de sangue solicitado. 
+A lista de doações de sangue neste sistema servirá como o processo onde podemos atualizar a disponibilidade do volume de sangue em cada grupo sanguíneo. 
+A funcionalidade de solicitação neste sistema servirá como o registro do sangue solicitado por um determinado paciente, que está solicitando um tipo específico de sangue com um volume específico, os dados serão submetidos ou inseridos neste processo. 
+A lista de entregas são os registros das solicitações de doação de sangue entregues, o que significa que neste processo atualiza o volume disponível de cada grupo sanguíneo.
+
+
+
+
+
